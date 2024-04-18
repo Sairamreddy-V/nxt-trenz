@@ -1,0 +1,27 @@
+/* Write your CSS here */
+.amount-span-element {
+  color: #000000;
+  font-size: 32px;
+}
+.summery-para {
+  color: grey;
+  margin-bottom: 8px;
+}
+.checkout-button {
+  color: #ffffff;
+  background-color: #0b69ff;
+  padding: 5px;
+  border: none;
+  width: 100%;
+  cursor: pointer;
+}
+.summery-container {
+  align-self: flex-end;
+}
+.popup-page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+}

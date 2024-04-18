@@ -1,0 +1,59 @@
+.popup-card {
+  padding: 25px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: #0c3647;
+  width: 300px;
+}
+.item-total-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+}
+.items {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+}
+.total {
+  color: grey;
+  font-size: 14px;
+}
+.button {
+  border: none;
+  border-radius: 7px;
+  background-color: #a8b5b4;
+  color: #000000;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.cash-on-delivery-button {
+  cursor: block;
+  color: grey;
+}
+.confirm-order-button {
+  background-color: blue;
+  color: #ffffff;
+  font-size: 14px;
+  align-self: center;
+  outline: none;
+  padding: 4px;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  width: 100%;
+  border-radius: 7px;
+}
+.order-placedtext {
+  color: green;
+  font-size: 16px;
+}
+.total-span {
+  color: #ffffff;
+  font-size: 24px;
+}
